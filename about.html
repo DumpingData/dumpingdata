@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated About Us</title>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body>
+  <!-- navbar-->
+  <header class="head">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+      </label>
+      <div class="heading">
+        <img src="img/logo.jpg" alt="Image description">
+      </div>
+      <nav>
+          <ul class="list">
+              <li><a href="index.html">Home</a></li>
+              <li class="ab"><a href="about.html" onclick="toggleSection('about')">About</a></li>
+              <li><a href="slider.html">Blogs</a></li>
+              <li><a href="service.html" onclick="toggleSection('services')">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <div class="box">
+                <a href="downlode/HSN Code List in PDF.pdf" target="_blank" style="font-weight: bold;">HSN Code List</a>
+            </div>
+          </ul>
+      </nav>
+  </header>
+  <Script>
+      // Add this JavaScript to toggle the mobile menu
+         document.addEventListener("DOMContentLoaded", function () {
+          const checkbox = document.getElementById("check");
+          const menuList = document.querySelector(".list");
+
+          checkbox.addEventListener("change", function () {
+          if (checkbox.checked) {
+              menuList.classList.add("show");
+          } else {
+         menuList.classList.remove("show");
+         }
+     });
+     });
+  </Script>
+  <div class="null"></div>
+<!-- Contact us -->
+<div class="container">
+    <div class="logoo">
+      <h1>About Us</h1>
+    </div>
+    
+    <section>
+      <div class="section1">
+        <input id="ab" type="checkbox">
+        <h2>Welcome to Dumping Data!</h2>
+        <h3>
+            We are an online data selling platform that connects businesses with the data they need to make better decisions. We offer a wide variety of data products, including customer data, market data, and product data. Our data is sourced from a variety of trusted sources, and we ensure that it is accurate and up-to-date.</h3>
+        </h3>
+        <h3>We believe that data is a valuable asset, and we want to make it easy for businesses to access the data they need. Our platform is easy to use, and we offer a variety of pricing options to fit your budget.</h3>
+        <h3>We are committed to protecting your privacy. We never share your data with third parties, 
+          and we only use your data for the purposes that you have authorized.</h3>
+          <h3>
+            In today's globalized economy, international trade has become a driving force behind economic growth and development.
+             We plays a pivotal role in facilitating and optimizing these international transactions. 
+            As countries exchange goods and services across borders, the need for accurate, timely, and comprehensive data has never been more in crucial.</h3>
+        </h3>
+        <div class="section2">
+          <h3>
+            We collect, analyse and provide valuable insights into the movement of goods and services between nations. This data encompasses crucial
+             information about imports and exports, such as product details, quantities, values, shipment routes, and the parties involved in the trade.
+          </h3>
+          <h3>
+            As an Export-Import data business, our mission is to empower global traders, businesses, researchers 
+            and policymakers with the right information to make informed decisions. We strive to offer up-to-date and reliable data, allowing our clients to
+             identify new market opportunities, monitor competitors, and gauge international demand for their products or services.
+          </h3>
+          <h3>
+            Our data-driven solutions go beyond mere statistics; we transform raw data into actionable intelligence. By leveraging cutting-edge technologies and analytics,
+             we provide customized reports, visualizations, and trend analysis that unlock the hidden potential of international trade.
+          </h3>
+          <h3>
+            Whether you are an aspiring entrepreneur exploring untapped markets, an established business seeking expansion opportunities, or a researcher studying global 
+            economic trends, our Export-Import data business is your trusted partner in navigating the complexities of international trade.
+          </h3>
+          <h3>
+            Join us in harnessing the power of data to fuel your growth, make strategic decisions, and unlock the limitless possibilities of the 
+            global marketplace. Together, we'll navigate the seas of 
+            international trade, transforming challenges into opportunities, and propelling your success to new heights. Welcome aboard.
+          </h3>
+          <div class="btn">
+            <a href="index2.html"><button>Our vision & Values</button></a>
+            </div>
+        </div>
+        <label for="ab">Read more</label>
+      </div>
+      </div> 
+      
+    </section>
+   
+    </div>
+<!-- Address-->
+<div class="cont">
+  <div class="contact-info">
+    <div class="contact">
+      <img src="img/icons8-email-100.png" alt="Email Icon">
+      <div class="contact-details">
+        <h2>E-MAILS:</h2>
+        <p><a href="mailto:info@example.com">info@example.com</a></p>
+      </div>
+    </div>
+    <div class="contact">
+      <img src="img/icons8-phone-100.png" alt="Phone Icon">
+      <div class="contact-details">
+        <h2>PHONE:</h2>
+        <p><a>+1 1234567890 / +1 1234567890</a></p>
+      </div>
+    </div>
+    <div class="contact">
+      <img src="img/icons8-message-32.png" alt="Support Icon">
+      <div class="contact-details">
+        <h2>SUPPORT:</h2>
+        <p>Mon-Sat, 8AM-8PM</p>
+      </div>
+    </div>
+    <div class="contact">
+      <img src="img/icons8-address-96.png" alt="Address Icon">
+      <div class="contact-details">
+        <h2>ADDRESS:</h2>
+        <p>123 Main Street, City, State, ZIP Code</p>
+      </div>
+    </div>
+  </div>
+  <div class="company-name">
+    <h1>DUMPING DATA</h1>
+    <h4>Unlocking Global Opportunities</h4>
+  </div>
+  <div class="company-text">
+    <p>An established organization,Dumping Data is expanding quickly with</p>
+    <p>its sights set on becoming a global player in the Data industry.</p>
+  </div>
+  <div class="follow-us">
+    <div class="social-media">
+      <a href="#" class="facebook"></a>
+      <a href="#" class="instagram"></a>
+      <a href="#" class="youtube"></a>
+    </div>
+    <div class="copy">
+      <p>Copyright © Dumping Data ®</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

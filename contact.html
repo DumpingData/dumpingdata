@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css ">
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+    <header class="head">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="heading">
+            <img src="img/logo.jpg" alt="Image description">
+        </div>
+        <nav>
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li class="ab"><a href="about.html" onclick="toggleSection('about')">About</a></li>
+                <li><a href="slider.html">Blogs</a></li>
+                <li><a href="service.html" onclick="toggleSection('services')">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <div class="box">
+                    <a href="downlode/HSN Code List in PDF.pdf" target="_blank" style="font-weight: bold;">HSN Code List</a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <Script>
+        // Add this JavaScript to toggle the mobile menu
+           document.addEventListener("DOMContentLoaded", function () {
+            const checkbox = document.getElementById("check");
+            const menuList = document.querySelector(".list");
+  
+            checkbox.addEventListener("change", function () {
+            if (checkbox.checked) {
+                menuList.classList.add("show");
+            } else {
+           menuList.classList.remove("show");
+           }
+       });
+       });
+    </Script>
+    <div class="null"></div>
+    <!--navbar end-->
+    <!--IMage section-->
+    <div class="breadcrumb-area blog-breadcrumb-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-txt">
+                        <h1>Contact Dumping Data
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="breadcrumb-overlay"></div>
+    </div>
+
+    <div class="contact-section">
+        <div class="container">
+            <!--  contact infos start  -->
+            <div class="contact-infos">
+                <div class="row no-gutters">
+                    <div class="col-lg-4 single-info-col">
+                        <div class="single-info wow fadeInRight" data-wow-duration="1s">
+                            <div class="icon-wrapper"><i class="fas fa-home"></i></div>
+                            <div class="info-txt">
+                                <p>163, Dr.M. G. Mahimtura Marg, 3rd Kumbharwada,
+                                </p>
+                                <p>Mumbai-400 004 (India)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 single-info-col">
+                        <div class="single-info wow fadeInRight" data-wow-duration="1s" data-wow-delay=".2s">
+                            <div class="icon-wrapper"><i class="fas fa-phone"></i></div>
+                            <div class="info-txt">
+                                <p>+91-22-6659 5285 </p>
+                                <p>+91-22-6639 4214</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 single-info-col">
+                        <div class="single-info wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">
+                            <div class="icon-wrapper"><i class="far fa-envelope"></i></div>
+                            <div class="info-txt">
+                                <p><a href="mailto:inquiry@nickelalloysonline.co.in">inquiry@nickelalloysonline.co.in</a></p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-4 single-info-col">
+                        <div class="single-info wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">
+                            <div class="icon-wrapper"><i class="far fa-user"></i></div>
+                            <div class="info-txt">
+                                <p> <strong>Contact:</strong> Mr. Milap Mehta</p>
+                                <p> <strong>Mob: </strong>+91-9869 532 584</p>
+                                <p><a href="mailto:inquiry@raajsagarsteels.com">inquiry@raajsagarsteels.com</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 single-info-col">
+                        <div class="single-info wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">
+                            <div class="icon-wrapper"><i class="far fa-user"></i></div>
+                            <div class="info-txt">
+                                <p> <strong>Contact:</strong> Mr. Ashish Jain</p>
+
+                                <p><a href="mailto:info@raajsagarsteels.com">info@raajsagarsteels.com</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 single-info-col">
+                        <div class="single-info wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">
+                            <div class="icon-wrapper"><i class="far fa-user"></i></div>
+                            <div class="info-txt">
+                                <p> <strong>Contact:</strong> Mr. Ayush Jain</p>
+                                <p> <strong>Mob: </strong>+91-9820889426</p>
+                                <p><a href="mailto:ayush@raajsagarsteels.com">ayush@raajsagarsteels.com</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  contact infos end  -->
+            <!--  contact form and map start  -->
+            <div class="contact-form-section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="subtitle animate">Keep In Touch</h2>
+                        <div class="container">
+                            <div class="row">
+                                <div class="right-side">
+                                    <form form onsubmit="sendEmail(); reset(); return false">
+                                        <!-- Form content here -->
+                                        <div class="form-group">
+                                            <label for="name">Name:</label>
+                                            <input type="text" id="name" name="name" required>
+                                        </div>
+                        
+                                        <div class="form-group">
+                                            <label for="name">Email:</label>
+                                            <input type="email" id="email" name="email" required>
+                                        </div>
+                        
+                                        <div class="form-group">
+                                            <label for="name">Phone:</label>
+                                            <input type="tel" id="tel" name="tel" required>
+                                        </div>
+                        
+                                        <div class="form-group">
+                                            <label for="data-type">Data Type:</label>
+                                            <select id="data-type" name="data-type" required>
+                                                <option value="">Select Data Type</option>
+                                                <option value="Export">Export Data</option>
+                                                <option value="Import">Import Data</option>
+                                                <option value="Export and Import">Both</option>
+                                                <option value="Other data">Other</option>
+                                            </select>
+                                        </div>
+                        
+                                        <div class="form-group">
+                                            <label for="message">Message:</label>
+                                            <textarea id="message" name="message" required></textarea>
+                                        </div>
+                                        <button type="submit"  class="submit-button">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                         </div>
+                        
+                    </div>
+                    <script src='https://smtpjs.com/v3/smtp.js'></script>
+                    <script>
+                        function sendEmail(){
+                            Email.send({
+                                SecureToken : "5d224578-40b1-4af7-a351-a4415bced795",
+                                To : 'dumping.data123@gmail.com',
+                                From : "dumping.data123@gmail.com",
+                                Subject : "This is the subject",
+                                Body : "Name: " + document.getElementById("name").value
+                                      + "<br> Email: " + document.getElementById("email").value
+                                      + "<br> Phone no: " + document.getElementById("tel").value
+                                      + "<br> Data Type: " + document.getElementById("data-type").value
+                                      + "<br> Massage: " + document.getElementById("message").value
+                                 }).then(
+                                  message => alert("Massage send succesfully")
+                                 );
+                        }
+                        
+                    </script>
+                    <div class="col-lg-6">
+                        <h2 class="subtitle animate ">Our Location</h2>
+                        <div class="map-wrapper">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15093.74056334786!2d72.80682014574994!3d18.95638061557657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1690022849658!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  contact form and map end  -->
+        </div>
+    </div>
+    <div class="cont">
+        <div class="contact-info">
+          <div class="contact">
+            <img src="img/icons8-email-100.png" alt="Email Icon">
+            <div class="contact-details">
+              <h2>E-MAILS:</h2>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
+            </div>
+          </div>
+          <div class="contact">
+            <img src="img/icons8-phone-100.png" alt="Phone Icon">
+            <div class="contact-details">
+              <h2>PHONE:</h2>
+              <p><a>+1 1234567890 / +1 1234567890</a></p>
+            </div>
+          </div>
+          <div class="contact">
+            <img src="img/icons8-message-32.png" alt="Support Icon">
+            <div class="contact-details">
+              <h2>SUPPORT:</h2>
+              <p>Mon-Sat, 8AM-8PM</p>
+            </div>
+          </div>
+          <div class="contact">
+            <img src="img/icons8-address-96.png" alt="Address Icon">
+            <div class="contact-details">
+              <h2>ADDRESS:</h2>
+              <p>123 Main Street, City, State, ZIP Code</p>
+            </div>
+          </div>
+        </div>
+        <div class="company-name">
+          <h1>DUMPING DATA</h1>
+          <h4>Unlocking Global Opportunities</h4>
+        </div>
+        <div class="company-text">
+          <p>An established organization,Dumping Data is expanding quickly with</p>
+          <p>its sights set on becoming a global player in the Data industry.</p>
+        </div>
+        <div class="follow-us">
+          <div class="social-media">
+            <a href="#" class="facebook"></a>
+            <a href="#" class="instagram"></a>
+            <a href="#" class="youtube"></a>
+          </div>
+        </div>
+        <div class="copy">
+            <p>Copyright © Dumping Data ®</p>
+          </div>
+      </div>
+</body>
+</html>

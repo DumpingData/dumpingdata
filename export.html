@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Export Data</title>
+    <link rel="stylesheet" href="export.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <header class="head">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="heading">
+            <img src="img/logo.jpg" alt="Image description">
+        </div>
+        <nav>
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li class="ab"><a href="about.html" onclick="toggleSection('about')">About</a></li>
+                <li><a href="slider.html">Blogs</a></li>
+                <li><a href="service.html" onclick="toggleSection('services')">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <div class="box">
+                    <a href="downlode/HSN Code List in PDF.pdf" target="_blank" style="font-weight: bold;">HSN Code List</a>
+                </div>
+            </ul>
+        </nav>
+        
+    </header>
+    <Script>
+        // Add this JavaScript to toggle the mobile menu
+           document.addEventListener("DOMContentLoaded", function () {
+            const checkbox = document.getElementById("check");
+            const menuList = document.querySelector(".list");
+
+            checkbox.addEventListener("change", function () {
+            if (checkbox.checked) {
+                menuList.classList.add("show");
+            } else {
+           menuList.classList.remove("show");
+           }
+       });
+       });
+    </Script>
+    <div class="null"></div>
+   <div class="row container-fluid results-section">
+    <div class="left-ad">
+        
+        <br>
+    </div>
+    <div class="results-table">
+    
+     <div class="result-section">
+        <div class="selected-filter"></div>
+           <div class="selected-filter">
+            <h1> EXPORT DATA</h1>
+            </div> 
+            <br>
+            <br>
+            <table class="result-table">
+                <tbody>
+                    <tr>
+                        <th scope="col">Shipping Bill Date</th>
+                        <th scope="col">Exporter Name</th>
+                        <th scope="col">HSN Code</th>
+                        <th scope="col"> Product Description</th>
+                        <th scope="col"> Consignee</th>
+                        <th scope="col">Consignee Country</th>
+                
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Unit</th>
+                        <th scope="col">Unit Rate In FC</th>
+                        <th scope="col">Total Value in FC</th>
+                        <th scope="col">Currency</th>
+                        <th scope="col">Indian Port</th>
+                    </tr>
+                    <!--tab1-->
+
+                    <tr class="odd">
+                        <td scope="row">
+                            <span class="month">Feb</span>
+                            <span class="day">28</span>
+                            <span class="year">2022</span>
+                        </td>
+                        <td scope="row">***********</td>
+                        <td scope="row">68159990</a>
+                        </td>
+                        <td class="desc" scope="row">MADE OF STONE ,  ALUM. ALUM MRBLE BYCLE 13</td>
+                        <td scope="row">UMA ENTERPRISES INC</td>
+                        <td scope="row">UNITED STATE OF AMERICA</td>
+                        <td scope="row">456</td>
+                        <td scope="row">PCS</td>
+                        <td scope="row">2.90</td>
+                        <td scope="row">1322.4</td>
+                        <td scope="row">USD</td>
+                        <td scope="row">PAKWARA MORADABAD ICD</td>
+                    </tr>
+                    <!--tab2-->
+
+                    <tr class="even">
+                        <td scope="row">
+                            <span class="month">Feb</span>
+                            <span class="day">28</span>
+                            <span class="year">2022</span>
+                        </td>
+                        <td scope="row">*************</td>
+                        <td scope="row">68132090</a>
+                        </td>
+                        <td class="desc" scope="row">A FRICTION MATERIAL BRAKE LININGS 5 HC</td>
+                        <td scope="row">NEW MAAMONI AUTOMOBILES</td>
+                        <td scope="row">BANGLADESH</td>
+                        <td scope="row">890</td>
+                        <td scope="row">KGS</td>
+                        <td scope="row">2.90</td>
+                        <td scope="row">2581.00</td>
+                        <td scope="row">USD</td>
+                        <td scope="row">JNPT/ NHAVA SHEVA SEA</td>
+                    </tr>
+                    <!--tab3-->
+
+                    <tr class="odd">
+                        <td scope="row">
+                        <span class="month">Mar</span>
+                        <span class="day">31</span>
+                        <span class="year">2023</span>
+                    </td>
+                     <td scope="row">************</td> 
+                        <td scope="row">39209922</td>
+                       
+                        <td class="desc" scope="row">PVC FILM ( 2200MMX30MICRON )</td>
+                        <td scope="row">FOSHAN CITY GUOBAO PACKAGING MATERI </td>
+                        <td scope="row">CHINA</td>
+                        <td scope="row">92730.42</td>
+                        <td scope="row">KGS </td>
+                        <td scope="row">1.19</td>
+                        <td scope="row">110349.19</td>
+                        <td scope="row">USD</td>
+                        <td scope="row">Sahar JNPT/ NHAVA SHEVA SEA</td>
+                    </tr>
+                    <!--tab4-->
+
+                    <tr class="even">
+                        <td scope="row">
+                        <span class="month">Mar</span>
+                        <span class="day">31</span>
+                        <span class="year">2023</span>
+                    </td>
+                    <td scope="row">**************</td>
+
+                    <td scope="row"> 39269099</td>
+                      
+                        <td class="desc" scope="row">ZBY9101 E.STOP LEGEND PLATE UNMARKED</td>
+                        <td scope="row">SCHNEIDER ELECTRIC INDUSTRIES SAS</td>
+                        <td scope="row">FRANCE</td>
+                        <td scope="row">30</td>
+                        <td scope="row">NOS</td>
+                
+                        <td scope="row">0.85</td>
+                        <td scope="row">25.50</td>
+                        <td scope="row">USD</td>
+                        <td scope="row">JNPT/ NHAVA SHEVA SEA</td>
+                    </tr>
+                      <!--tab5-->
+                    <tr class="odd">
+                        <td scope="row">
+                        <span class="month">Feb</span>
+                        <span class="day">01</span>
+                        <span class="year">2023</span>
+                      </td>
+                      <td scope="row">**************</td>
+                        <td scope="row">85182190</td>
+                            
+                                                
+                        <td class="desc" scope="row">PULZ POINT SOURCE CSX12-12" CO-AXIAL CIN </td>
+                        <td scope="row">C.K. CINEMAS PVT. LTD. </td>
+                        <td scope="row">NEPAL</td>
+                        <td scope="row">8</td>
+                        <td scope="row">NOS </td>
+                        <td scope="row">32289.00</td>
+                        <td scope="row">258312.00</td>
+                        <td scope="row">INR</td>
+                        <td scope="row">RAXAUL (INRXLB)</td>
+                        
+                    </tr>
+                    <!--------------------------tab6------------------------------------------------->
+                    <tr class="even">
+                        <td scope="row">
+                            <span class="month">Feb</span>
+                            <span class="day">01</span>
+                            <span class="year">2023</span>
+                        </td>
+                        <td scope="row">*******************</td>
+                        <td scope="row">85171300</a>
+                        </td>
+                        <td class="desc" scope="row">APPLE IPHONE 13(128GB)MOBILE PHONE(NON A)</td>
+                        <td scope="row">365 DAYS FREIGHT SERVICES FZCO .</td>
+                        <td scope="row">UNITED ARAB EMIRATES </td>
+                        <td scope="row">250</td>
+                        <td scope="row">PCS</td>
+                        <td scope="row">650</td>
+                        <td scope="row">162500.00</td>
+                        <td scope="row">USD</td>
+                        <td scope="row">KOLKATA ACC (INCCU4)
+
+
+                        </td>
+                    </tr>
+                    <!--tab7-->
+
+                    <tr class="odd">
+                        <td scope="row">
+                            <span class="month">Feb</span>
+                            <span class="day">20</span>
+                            <span class="year">2023</span>
+                        </td>
+                        <td scope="row">*********</td>
+                        <td scope="row">72222012</a>
+                        </td>
+                        <td class="desc" scope="row">STAINLESS STEEL BRIGHT BAR GRADE: 304L,S </td>
+                        <td scope="row">TO ORDER </td>
+                        <td scope="row">SPAIN</td>
+                        <td scope="row">1000</td>
+                        <td scope="row">KGS</td>
+                        <td scope="row">2.92</td>
+                        <td scope="row">2920.00</td>
+                        <td scope="row">USD</td>
+                        <td scope="row">JNPT/ NHAVA SHEVA SEA</td>
+                    </tr>
+                    <!--tab8-->
+
+                    <tr class="even">
+                        <td scope="row">
+                            <span class="month">Feb</span>
+                            <span class="day">20</span>
+                            <span class="year">2023</span>
+                        </td>
+                        <td scope="row">*****</td>
+                        <td scope="row">72023000</a>
+                        </td>
+                        <td class="desc" scope="row">SILICO MANGANESE 60/14 </td>
+                        <td scope="row">VOESTALPINE KREMS GMBH</td>
+                        <td scope="row">ANGOLA</td>
+                        <td scope="row">30000</td>
+                        <td scope="row">KGS</td>
+                        <td scope="row">1.13</td>
+                        <td scope="row">33900</td>
+                        <td scope="row">USD</td>
+                        <td scope="row">JNPT/ NHAVA SHEVA SEA</td>
+                    </tr>
+                    <!--tab9-->
+
+                    <tr class="odd">
+                        <td scope="row">
+                            <span class="month">Jan</span>
+                            <span class="day">12</span>
+                            <span class="year">2023</span>
+                        </td>
+                        <td scope="row">*****************</td>
+                        <td scope="row">84089010</a>
+                        </td>
+                        <td class="desc" scope="row">ENGINE ARR 1103(DK83402S)-PK_DK83402S UN</td>
+                        <td scope="row">PT TRAKTOR NUSANTARA</td>
+                        <td scope="row">JAKARTA</td>
+                        <td scope="row">3</td>
+                        <td scope="row">PCS</td>
+                        <td scope="row">3057.00</td>
+                        <td scope="row">9171.00</td>
+                        <td scope="row">USD</td>
+                        <td scope="row">KATTUPALLI</td>
+                    </tr>
+                    <!--tab10-->
+                    <tr class="even">
+                        <td scope="row">
+                            <span class="month">Jan</span>
+                            <span class="day">12</span>
+                            <span class="year">2023</span>
+                        </td>
+                        <td scope="row">**************</td>
+                        <td scope="row">84314990</td>
+                        
+                        <td class="desc" scope="row">OTHERS-PARTS SUITABLE FOR USE SOLELY OR </td>
+                        <td scope="row">WIPRO INFRASTRUCTURE ENGINEERING  </td>
+                        <td scope="row">HELSINKI(Helsingfor)</td>
+                        <td scope="row">45</td>
+                        <td scope="row">NOS</td>
+                        <td scope="row">68.38</td>
+                        <td scope="row">3077.10</td>
+                        <td scope="row">EUR </td>
+                        <td scope="row">CHENNAI</td>
+                    </tr>
+                    
+
+                </tbody>
+            </table>
+            <br>
+        </div>
+        <div class="download-sample">
+            <a href="downlode/export-data.xlsx" download="sample_data.csv">Download Export Data Sample</a>
+        </div>
+    </div>
+    <div class="right-ad"></div>
+    </div>
+    <div class="cont">
+        <div class="contact-info">
+          <div class="contact">
+            <img src="img/icons8-email-100.png" alt="Email Icon">
+            <div class="contact-details">
+              <h2>E-MAILS:</h2>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
+            </div>
+          </div>
+          <div class="contact">
+            <img src="img/icons8-phone-100.png" alt="Phone Icon">
+            <div class="contact-details">
+              <h2>PHONE:</h2>
+              <p><a>+1 1234567890 / +1 1234567890</a></p>
+            </div>
+          </div>
+          <div class="contact">
+            <img src="img/icons8-message-32.png" alt="Support Icon">
+            <div class="contact-details">
+              <h2>SUPPORT:</h2>
+              <p>Mon-Sat, 8AM-8PM</p>
+            </div>
+          </div>
+          <div class="contact">
+            <img src="img/icons8-address-96.png" alt="Address Icon">
+            <div class="contact-details">
+              <h2>ADDRESS:</h2>
+              <p>123 Main Street, City, State, ZIP Code</p>
+            </div>
+          </div>
+        </div>
+        <div class="company-name">
+          <h1>DUMPING DATA</h1>
+          <h4>Unlocking Global Opportunities</h4>
+        </div>
+        <div class="company-text">
+          <p>An established organization,Dumping Data is expanding quickly with</p>
+          <p>its sights set on becoming a global player in the Data industry.</p>
+        </div>
+        <div class="follow-us">
+          <div class="social-media">
+            <a href="#" class="facebook"></a>
+            <a href="#" class="instagram"></a>
+            <a href="#" class="youtube"></a>
+          </div>
+        </div>
+        <div class="copy">
+            <p>Copyright © Dumping Data ®</p>
+          </div>
+      </div>
+      </body>    
+    
+</body>
+</html>

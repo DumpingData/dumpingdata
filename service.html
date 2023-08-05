@@ -1,0 +1,188 @@
+<IDOCTYPE html>
+  <html>
+
+  <head>
+    <title>Our Services</title>
+    <link rel="stylesheet" type="text/css" href="service.css">
+    <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+
+  <body>
+    <!-- navbar-->
+    <header class="head">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <div class="heading">
+        <img src="img/logo.jpg" alt="Image description">
+      </div>
+      <nav>
+        <ul class="list">
+          <li><a href="index.html">Home</a></li>
+          <li class="ab"><a href="about.html" onclick="toggleSection('about')">About</a></li>
+          <li><a href="slider/index.html">Blogs</a></li>
+          <li><a href="service.html" onclick="toggleSection('services')">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <div class="box">
+            <a href="HSN Code List in PDF.pdf" target="_blank" style="font-weight: bold;">HSN Code List</a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <Script>
+      // Add this JavaScript to toggle the mobile menu
+      document.addEventListener("DOMContentLoaded", function () {
+        const checkbox = document.getElementById("check");
+        const menuList = document.querySelector(".list");
+
+        checkbox.addEventListener("change", function () {
+          if (checkbox.checked) {
+            menuList.classList.add("show");
+          } else {
+            menuList.classList.remove("show");
+          }
+        });
+      });
+    </Script>
+    <!-- service -->
+    <div class="wrapper">
+      <h1>OUR SERVICES</h1>
+      <h3>
+        Dumping Data is a web-based platform that provides a wide range of services to exporters and importers in India.
+      </h3>
+      <div class="content-box">
+        <div class="card">
+          <i class="fa-solid fa-earth-asia fa-2x"></i>
+          <h2>Export Import Data Bank (EXIMDB)</h2>
+          <p>
+            The EXIMDB is a comprehensive database of trade data that includes information on exports, imports, trade
+            partners, and commodities. The data is updated on a monthly basis and can be accessed by exporters and
+            importers to track trade trends and identify new market opportunities.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-chart-line fa-2x"></i>
+          <h2>Trade Statistics</h2>
+          <p>
+            The (EXIMDB) also provides access to trade statistics that are compiled by the Ministry of Commerce and
+            Industry. The statistics include information on the value of exports and imports, the volume of trade, and
+            the trade balance.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-signal fa-2x"></i>
+          <h2>Export Promotion Schemes </h2>
+          <p>
+            The EDP provides information on export promotion schemes that are offered by the government of India. These
+            schemes offer a variety of benefits to exporters, such as duty drawbacks, export incentives, and market
+            access assistance.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-regular fa-file fa-2x"></i>
+          <h2>Customs Documentation </h2>
+          <p>
+            The EDP provides information on customs documentation that is required for exporting and importing goods.
+            This information includes the types of documents that are required, the format of the documents, and the
+            procedures for submitting the documents.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-file-pen fa-2x"></i>
+          <h2>Trade Agreements </h2>
+          <p>
+            The EDP provides information on trade agreements that are signed by India with other countries. These
+            agreements can provide exporters with preferential market access in other countries.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-regular fa-money-bill-1 fa-2x"></i>
+          <h2>Foreign Buyers </h2>
+          <p>
+            The EDP provides a directory of foreign buyers who are interested in sourcing goods from India. This
+            directory can be used by exporters to identify potential buyers for their products.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-database fa-2x"></i>
+          <h2>Data Analytics </h2>
+          <p>
+            Data analytics can help businesses to make better decisions by providing them with insights into their data.
+            This can help businesses to identify opportunities, avoid risks, and improve their bottom line.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-feather fa-2x"></i>
+          <h2>Other Features</h2>
+          <p>
+            • A user-friendly interface that makes it easy to search and navigate the data.</p>
+          <p>• The ability to download data in a variety of formats, including Excel, CSV, and PDF.</p>
+
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-feather fa-2x"></i>
+          <h2>Other Features</h2>
+          <p>
+            • The ability to create custom reports based on the data.</p>
+          <p>• The ability to subscribe to email alerts that notify users of new data releases or changes to the data.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Address-->
+    <div class="cont">
+      <div class="contact-info">
+        <div class="contact">
+          <img src="img/icons8-email-100.png" alt="Email Icon">
+          <div class="contact-details">
+            <h2>E-MAILS:</h2>
+            <p><a href="mailto:info@example.com">info@example.com</a></p>
+          </div>
+        </div>
+        <div class="contact">
+          <img src="img/icons8-phone-100.png" alt="Phone Icon">
+          <div class="contact-details">
+            <h2>PHONE:</h2>
+            <p><a>+1 1234567890 / +1 1234567890</a></p>
+          </div>
+        </div>
+        <div class="contact">
+          <img src="img/icons8-message-32.png" alt="Support Icon">
+          <div class="contact-details">
+            <h2>SUPPORT:</h2>
+            <p>Mon-Sat, 8AM-8PM</p>
+          </div>
+        </div>
+        <div class="contact">
+          <img src="img/icons8-address-96.png" alt="Address Icon">
+          <div class="contact-details">
+            <h2>ADDRESS:</h2>
+            <p>123 Main Street, City, State, ZIP Code</p>
+          </div>
+        </div>
+      </div>
+      <div class="company-name">
+        <h1>DUMPING DATA</h1>
+        <h4>Unlocking Global Opportunities</h4>
+      </div>
+      <div class="company-text">
+        <p>An established organization,Dumping Data is expanding quickly with</p>
+        <p>its sights set on becoming a global player in the Data industry.</p>
+      </div>
+      <div class="follow-us">
+        <div class="social-media">
+          <a href="#" class="facebook"></a>
+          <a href="#" class="instagram"></a>
+          <a href="#" class="youtube"></a>
+        </div>
+      </div>
+      <div class="copy">
+        <p>Copyright © Dumping Data ®</p>
+      </div>
+    </div>
+  </body>
+
+  </html>

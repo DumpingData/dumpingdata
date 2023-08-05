@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Import Data</title>
+    <link rel="stylesheet" href="import.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <header class="head">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="heading">
+            <img src="img/logo.jpg" alt="Image description">
+        </div>
+        <nav>
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li class="ab"><a href="about.html" onclick="toggleSection('about')">About</a></li>
+                <li><a href="slider.html">Blogs</a></li>
+                <li><a href="service.html" onclick="toggleSection('services')">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <div class="box">
+                    <a href="downlode/HSN Code List in PDF.pdf" target="_blank" style="font-weight: bold;">HSN Code List</a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <Script>
+        // Add this JavaScript to toggle the mobile menu
+           document.addEventListener("DOMContentLoaded", function () {
+            const checkbox = document.getElementById("check");
+            const menuList = document.querySelector(".list");
+
+            checkbox.addEventListener("change", function () {
+            if (checkbox.checked) {
+                menuList.classList.add("show");
+            } else {
+           menuList.classList.remove("show");
+           }
+       });
+       });
+    </Script>
+    <div class="null"></div>
+   <div class="row container-fluid results-section">
+    <div class="left-ad">
+        
+        <br>
+    </div>
+    <div class="results-table">
+    
+     <div class="result-section">
+        <div class="selected-filter"></div>
+           <div class="selected-filter">
+            <h1> IMPORT DATA</h1>
+                
+
+            </div> 
+            <br>
+            <br>
+            <table class="result-table">
+                <tbody>
+                    <tr>
+                        <th scope="col"> Bill OF Entry Date</th>
+                        <th scope="col">Importer Name</th>
+                        <th scope="col">HSN Code</th>
+                        <th scope="col"> Product Description</th>
+                        <th scope="col"> Supplier Name</th>
+                        <th scope="col"> Supplier Country</th>
+                
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Unit</th>
+                        <th scope="col">Unit Rate of FC</th>
+                        <th scope="col">Total Rate of FC</th>
+                        <th scope="col">Currency</th>
+                        <th scope="col">Location</th>
+                    </tr>
+                    <!--tab1-->
+
+                    <tr class="odd">
+                        <td scope="row">
+                            <span class="month">dec</span>
+                            <span class="day">31</span>
+                            <span class="year">2022</span>
+                        </td>
+                        <td scope="row">*********</td>
+                        <td scope="row">75052200</a>
+                        </td>
+                        <td class="desc" scope="row">AMS5666 14021307620GE/00 NICKEL ALLOY ROUND BAR</td>
+                        <td scope="row">SSS SUPER ALLOYS LTD</td>
+                        <td scope="row">UNITED KINGDOM</td>
+                        <td scope="row">1</td>
+                        <td scope="row">NOS</td>
+                        <td scope="row">2326.85</td>
+                        <td scope="row">2326.85</td>
+                        <td scope="row">USD</td>
+                        <td scope="row">bangalore ICD</td>
+                    </tr>
+                    <!--tab2-->
+
+                    <tr class="even">
+                        <td scope="row">
+                            <span class="month">Mar</span>
+                            <span class="day">01</span>
+                            <span class="year">2023</span>
+                        </td>
+                        <td scope="row">*********</td>
+                        <td scope="row">74198090</a>
+                        </td>
+                        <td class="desc" scope="row">CURRENT BAR 538-280 (51147179) (PARTS FOR MANUFACTURING OF TERMINAL BLOCK)</td>
+                        <td scope="row">SSS SUPER ALLOYS LTD</td>
+                        <td scope="row">GERMANY</td>
+                        <td scope="row">24000</td>
+                        <td scope="row">NOS</td>
+                        <td scope="row">0.04</td>
+                        <td scope="row">960</td>
+                        <td scope="row">EUR</td>
+                        <td scope="row">Nhava Sheva</td>
+                    </tr>
+                    <!--tab3-->
+
+                    <tr class="odd">
+                        <td scope="row">
+                        <span class="month">jul</span>
+                        <span class="day">23</span>
+                        <span class="year">2022</span>
+                    </td>
+                     <td scope="row">********</td> 
+                        <td scope="row">
+                        90041000</a>
+                    </td>
+                        
+                        <td class="desc" scope="row">SUNGLASSES-CARRERA 1032/S CARRERA </td>
+                        <td scope="row">M/S. SAFILO S.P.A </td>
+                        <td scope="row">N/A</td>
+                        <td scope="row">9</td>
+                        <td scope="row">PCS </td>
+                        <td scope="row">1874.11</td>
+                        <td scope="row">16866.99</td>
+                        <td scope="row">INR</td>
+                        <td scope="row">Sahar Air</td>
+                    </tr>
+                    <!--tab4-->
+
+                    <tr class="even">
+                        <td scope="row">
+                        <span class="month">Dec</span>
+                        <span class="day">02</span>
+                        <span class="year">2022</span>
+                    </td>
+                    <td scope="row">**********</td>
+
+                    <td scope="row">
+                        71171100</a>
+                    </td>
+                        <td class="desc" scope="row">6454/363 MAN IMIT JEWELLER 95% POLYESTER 5% IRON SEVERAL (15PCS)</td>
+                        <td scope="row">INDUSTRIA DE DISENO TEXTIL,S.A.</td>
+                        <td scope="row">SPAIN</td>
+                        <td scope="row">0.255</td>
+                        <td scope="row">KGS</td>
+                
+                        <td scope="row">40.00</td>
+                        <td scope="row">10.20</td>
+                        <td scope="row">EUR</td>
+                        <td scope="row">Bangalore Sea</td>
+                    </tr>
+                      <!--tab5-->
+                    <tr class="odd">
+                        <td scope="row">
+                        <span class="month">Feb</span>
+                        <span class="day">28</span>
+                        <span class="year">2019</span>
+                      </td>
+                      <td scope="row">************</td>
+                        <td scope="row">29152100</td>
+                            
+                                                
+                        <td class="desc" scope="row">ACETIC ACID  </td>
+                        <td scope="row">MITSUBISHI CORPORATION</td>
+                        <td scope="row">CHINA</td>
+                        <td scope="row">21000</td>
+                        <td scope="row">KGS </td>
+                        <td scope="row">0.70</td>
+                        <td scope="row">14700.00</td>
+                        <td scope="row">USD </td>
+                        <td scope="row">Vizag Sea</td>
+                        
+                    </tr>
+                    <!--------------------------tab6------------------------------------------------->
+                    <tr class="even">
+                        <td scope="row">
+                            <span class="month">Feb</span>
+                            <span class="day">17</span>
+                            <span class="year">2018</span>
+                        </td>
+                        <td scope="row">*********</td>
+                        <td scope="row">96151100</a>
+                        </td>
+                        <td class="desc" scope="row">TIC TAC CLIPS (QTY: 600 PCS)</td>
+                        <td scope="row">YIWU CITY JISHAO ARTS & CRAFTS CO.</td>
+                        <td scope="row">CHINA</td>
+                        <td scope="row">88</td>
+                        <td scope="row">KGS</td>
+                        <td scope="row">0.681</td>
+                        <td scope="row">59.928</td>
+                        <td scope="row">USD</td>
+                        <td scope="row">Calcutta Sea</td>
+                    </tr>
+                    <!--tab7-->
+
+                    <tr class="odd">
+                        <td scope="row">
+                            <span class="month">May</span>
+                            <span class="day">01</span>
+                            <span class="year">2023</span>
+                        </td>
+                        <td scope="row">*********</td>
+                        <td scope="row">73041910</a>
+                        </td>
+                        <td class="desc" scope="row">CARBON STEEL SEAMLESS MOTHER PIPES HOT FINISH</td>
+                        <td scope="row">SHANDONG EVER SHINE SUPPLY CHAIN</td>
+                        <td scope="row">CHINA</td>
+                        <td scope="row">54.818</td>
+                        <td scope="row">MTS</td>
+                        <td scope="row">67351.505</td>
+                        <td scope="row">3692074.53</td>
+                        <td scope="row">USD</td>
+                        <td scope="row">Calcutta Sea</td>
+                    </tr>
+                    <!--tab8-->
+
+                    <tr class="even">
+                        <td scope="row">
+                            <span class="month">May</span>
+                            <span class="day">01</span>
+                            <span class="year">2023</span>
+                        </td>
+                        <td scope="row">*********</td>
+                        <td scope="row">73066900</a>
+                        </td>
+                        <td class="desc" scope="row">NON CIRCULAR WELDED STEEL TUBE 102X102X6MM FR 19 436 FOR MFR OF VEHICLE CABIN SIMS STL725078 24 04 23</td>
+                        <td scope="row">VOESTALPINE KREMS GMBH</td>
+                        <td scope="row">AUSTRALIA</td>
+                        <td scope="row">48</td>
+                        <td scope="row">PCS</td>
+                        <td scope="row">58.75</td>
+                        <td scope="row">2820</td>
+                        <td scope="row">EUR</td>
+                        <td scope="row">Madras Sea</td>
+                    </tr>
+                    <!--tab9-->
+
+                    <tr class="odd">
+                        <td scope="row">
+                            <span class="month">Feb</span>
+                            <span class="day">03</span>
+                            <span class="year">2023</span>
+                        </td>
+                        <td scope="row">*********</td>
+                        <td scope="row">84144090</a>
+                        </td>
+                        <td class="desc" scope="row">USED SCREW AIR COMPRESSOR M150 25 WITH RERIGERATION DRYER THERMOSTAR TS900 (DETAIL AS PER IMPORT DOCUMENTS)</td>
+                        <td scope="row">MAYNARD EUROPE GMBH</td>
+                        <td scope="row">GERMANY</td>
+                        <td scope="row">1</td>
+                        <td scope="row">UNT</td>
+                        <td scope="row">5413.00</td>
+                        <td scope="row">5413.00</td>
+                        <td scope="row">EUR</td>
+                        <td scope="row">ICD Concor Dhandari Kalan Ludhiana</td>
+                    </tr>
+                    <!--tab10-->
+                    <tr class="even">
+                        <td scope="row">
+                            <span class="month">feb</span>
+                            <span class="day">01</span>
+                            <span class="year">2023</span>
+                        </td>
+                        <td scope="row">*********</td>
+                        <td scope="row">84819090</a>
+                        </td>
+                        <td class="desc" scope="row">SA-V115-5DOS PILOT VALVE ASSEMBLY 250 PS </td>
+                        <td scope="row">SMC CORPORATION </td>
+                        <td scope="row">JAPAN</td>
+                        <td scope="row">250</td>
+                        <td scope="row">PCS</td>
+                        <td scope="row">274.90</td>
+                        <td scope="row">68725.00</td>
+                        <td scope="row">INR </td>
+                        <td scope="row">Ahmedabad Air</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </div>
+        <div class="download-sample">
+            <a href="downlode/import-data.xlsx" download="sample_data.csv">Download Import Data Sample</a>
+        </div>
+    </div>
+    <div class="right-ad"></div>
+    
+    </div>
+    
+     <!--Address part start-->
+
+     <div class="cont">
+        <div class="contact-info">
+          <div class="contact">
+            <img src="img/icons8-email-100.png" alt="Email Icon">
+            <div class="contact-details">
+              <h2>E-MAILS:</h2>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
+            </div>
+          </div>
+          <div class="contact">
+            <img src="img/icons8-phone-100.png" alt="Phone Icon">
+            <div class="contact-details">
+              <h2>PHONE:</h2>
+              <p><a>+1 1234567890 / +1 1234567890</a></p>
+            </div>
+          </div>
+          <div class="contact">
+            <img src="img/icons8-message-32.png" alt="Support Icon">
+            <div class="contact-details">
+              <h2>SUPPORT:</h2>
+              <p>Mon-Sat, 8AM-8PM</p>
+            </div>
+          </div>
+          <div class="contact">
+            <img src="img/icons8-address-96.png" alt="Address Icon">
+            <div class="contact-details">
+              <h2>ADDRESS:</h2>
+              <p>123 Main Street, City, State, ZIP Code</p>
+            </div>
+          </div>
+        </div>
+        <div class="company-name">
+          <h1>DUMPING DATA</h1>
+          <h4>Unlocking Global Opportunities</h4>
+        </div>
+        <div class="company-text">
+          <p>An established organization,Dumping Data is expanding quickly with</p>
+          <p>its sights set on becoming a global player in the Data industry.</p>
+        </div>
+        <div class="follow-us">
+          <div class="social-media">
+            <a href="#" class="facebook"></a>
+            <a href="#" class="instagram"></a>
+            <a href="#" class="youtube"></a>
+          </div>
+        </div>
+        <div class="copy">
+            <p>Copyright © Dumping Data ®</p>
+          </div>
+      </div>
+</body>
+</html>

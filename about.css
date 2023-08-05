@@ -1,0 +1,435 @@
+/* Navbar css*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  .head {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 11%;
+  background-image: linear-gradient(rgba(3,12,19,255), #030c13);
+  opacity: 0.86;
+  position: relative;
+  position: fixed;
+  z-index: 1;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 20;
+  display: flex;
+  }
+  
+  nav li {
+  font-weight: bold;
+  padding: 0 20px;
+  }
+  
+  .list li {
+  font-weight: bold;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.929); /* #1abbad */
+  margin-right: 15px;
+  margin-top: 10%;
+  }
+  
+  .list li.clicked {
+  text-decoration: underline;
+  }
+  
+  .list li:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff; /* #1abbad */
+  font-weight: bold;
+  text-decoration-thickness: 2.5px;
+  }
+  
+  .list li a {
+  text-decoration: none;
+  color: inherit;
+  }
+.box {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+   }
+   .heading {
+    text-align: center;
+    }
+    .heading img {
+      width: 400px;
+      height: auto; 
+    }
+    @media (max-width: 768px) {
+      .heading img {
+          max-width: 80%;
+      }
+    }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.heading{
+      font-size: 20px;
+      padding-left: 40px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 858px) {
+    .checkbtn {
+      display: block;
+    }
+  
+    .list {
+      display: none;
+    }
+  
+    .list.show {
+        display: flex;
+    flex-direction: column;
+    align-items: center; /* Center list items horizontally */
+    justify-content: center; /* Center list items vertically */
+    background-color: #a09999;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 100%;
+    }
+    .list li {
+      margin: 15px;
+    }
+  }  
+  .null{
+    width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 11%;
+  background-image: linear-gradient(rgb(15, 14, 14), #070707);
+  opacity: 0.86;
+  z-index: 1;
+  }
+  /*About us css*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+  }
+  
+  .container {
+    background-image: url("img/dark.webp");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logoo h1 {
+    text-align: center;
+    font-size: 3em;
+    color: rgb(168, 232, 246);
+    cursor: pointer;
+    margin-bottom: -140px;
+  }
+  .section1 label {
+    background-color: aquamarine;
+    color: #000;
+    padding: 10px 25px;
+    border: none;
+    margin-block-start: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+  }
+  .section1 button {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 4px 15px;
+    background: transparent;
+    color: rgb(250, 247, 247);
+    border-color: rgb(254, 253, 253);
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 11px;
+    animation: button1 3s forwards;
+    opacity: 0;
+    transition-timing-function: cubic-bezier(0.785, 0.140, 0.20, 0.98);
+  }
+  
+  @keyframes button1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .section1 button:hover {
+    background-color: rgb(250, 247, 247);
+    color: rgb(12, 7, 1);
+    transition: 0.4s;
+  }
+  
+  section .section1 {
+    width: 100%;
+    text-align: center;
+    max-width: 950px;
+    color: rgb(255, 254, 254);
+    margin: 180px auto;
+    z-index: 2;
+  }
+  
+  .section1 h2 {
+    text-align: center;
+    font-size: 3em;
+    animation: heading1 4s forwards;
+    opacity: 0;
+    transition-timing-function: cubic-bezier(0.785, 0.140, 0.20, 0.98);
+  }
+  
+  @keyframes heading1 {
+    0% {
+      opacity: 0;
+      margin-left: -300px;
+    }
+    100% {
+      opacity: 1;
+      margin-left: 0px;
+    }
+  }
+  
+  .section1 h3 {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1.1em;
+    animation: heading3 8s forwards;
+    opacity: 0;
+    transition-timing-function: cubic-bezier(0.785, 0.140, 0.20, 0.98);
+  }
+  #ab{
+    display: none;
+  }
+  .section2{
+    display: none;
+  }
+  #ab:checked ~ .section2{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #ab:checked ~ label{
+    display: none;
+  }
+  @keyframes heading3 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @media (max-width: 767px) {
+    .section1 {
+      margin: 120px auto;
+    }
+    
+    .section1 h2 {
+      font-size: 2.5em;
+    }
+  
+    .section1 h3 {
+      font-size: 1.5em;
+    }
+  }
+  @media (max-width: 479px) {
+    .section1 {
+      margin: 80px auto;
+    }
+  
+    .section1 h2 {
+      font-size: 2em;
+    }
+  
+    .section1 h3 {
+      font-size: 1.2em;
+    }
+  }
+
+  /*Address css*/
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cont {
+    height: 100%;
+    padding: 1cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #303438;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    color: #ffffff;
+  }
+  .contact-details h2 {
+    margin-bottom: 2px; /* Adjust the margin as needed to decrease the height */
+  }
+  
+  /* Styling for the "Email" heading and paragraph */
+  .contact-info h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; 
+  }
+  
+  
+  .company-name {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+  
+  .company-text {
+    text-align: center;
+  }
+  .company-text p{
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  .contact {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px; 
+  }
+  .contact a{
+    text-decoration: none; 
+    color: #ffffff;
+  }
+  .contact a:hover {
+    text-decoration: underline; 
+    color: rgb(38, 211, 234); 
+  }
+  .contact img {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px; 
+    margin-top: 10px;
+  }
+  .company-name h6{
+    margin-bottom: -20px;
+  }
+  .company-name h4{
+    margin-bottom: -5px ;
+  }
+  .social-media {
+    margin-bottom: 30px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center;
+  }
+  .social-media a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    transition: transform 0.2s;
+    margin-right: 10px;
+  }
+  .copy{
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+  }
+  .facebook {
+    background-image: url('img/icons8-linkedin-1600.png');
+  }
+  .instagram {
+    background-image: url('img/icons8-instagram-1600.png');
+  }
+  .youtube {
+    background-image: url('img/icons8-youtube-1600.png');
+  }
+  .facebook:hover,
+  .instagram:hover,
+  .youtube:hover {
+    transform: scale(1.2);
+  }
+  @media screen and (max-width: 768px) {
+    .cont {
+      padding: 0.5cm;
+    }
+    
+    .contact-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact {
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .contact img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .company-text{
+      font-size: 15px;
+    }
+  }  

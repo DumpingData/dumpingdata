@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+</head>
+<!--navbar start-->
+
+<body>
+    <header class="head">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="heading">
+            <img src="img/logo.jpg" alt="Image description">
+        </div>
+        <nav>
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li class="ab"><a href="about.html">About</a></li>
+                <li><a href="slider.html">Blogs</a></li>
+                <li><a href="service.html" onclick="toggleSection('services')">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <div class="box">
+                    <a href="downlode/HSN Code List in PDF.pdf" target="_blank" style="font-weight: bold;">HSN Code List</a>
+                </div>
+            </ul>
+        </nav>
+
+    </header>
+    <Script>
+        // Add this JavaScript to toggle the mobile menu
+        document.addEventListener("DOMContentLoaded", function () {
+            const checkbox = document.getElementById("check");
+            const menuList = document.querySelector(".list");
+
+            checkbox.addEventListener("change", function () {
+                if (checkbox.checked) {
+                    menuList.classList.add("show");
+                } else {
+                    menuList.classList.remove("show");
+                }
+            });
+        });
+    </Script>
+    <div class="null"></div>
+
+    <!--Slow song-->
+    <div class="heading-after-navbar">
+        <h2>One stop solution for all your Export Import Reports</h2>
+    </div>
+    <div class="pic"></div>
+
+    <div class="business">
+        <div class="up">
+
+            <div class="boxup">
+                <div class="info">
+                    <img id="logopic" src="logopic/Enhance your business-final.png"alt="">
+                    <p>Enhance Your Business</p>
+                </div>
+            </div>
+            <div class="boxup">
+                <div class="info">
+                    <img id="logopic" src="logopic/internation trade stats of 80 countries-finall.png"alt="">
+                    <p>International trade stats of 80 countries</p>
+                </div>
+            </div>
+
+            <div class="boxup">
+                <div class="info">
+                    <img id="logopic" src="logopic/data accuracy icon-2.png" alt="">
+                    <p>Data accuracy</p>
+                </div>
+            </div>
+
+            <div class="boxup">
+                <div class="info">
+                    <img id="logopic" src="logopic/Data used by Gov. agency-2.png" alt="">
+                    <p>Data used by govt agencies</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="down">
+            <div class="boxdown">
+                <div class="info">
+                    <img id="logopic" src="logopic/Grow your profits-final.png" alt="">
+                    <p>Grow your profits</p>
+                </div>
+            </div>
+
+
+            <div class="boxdown">
+                <div class="info">
+                    <img id="logopic" src="logopic/Shield against competition-final - Copy.png" alt="">
+                    <p>Shield Against competion</p>
+                </div>
+            </div>
+            <div class="boxdown">
+                <div class="info">
+                    <img id="logopic" src="logopic/Fastest response time-3.png" alt="">
+                    <p>Fastest response time</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <!--Introduction start-->
+    <div class="intro">
+        <input id="hc" type="checkbox">
+        <h1>Welcome to Dumpingdata.com!</h1>
+        <p>In this fastest growing world, it is important to be run with the changes.
+            The global export import market is worth trillions of dollars, and it is constantly growing.
+            In order to succeed in this market, businesses need to have access to accurate and up-to-date data.
+            In today's globalized economy, international trade is essential for
+            businesses of all sizes. However, making informed decisions about export and import can be challenging, as
+            there is a lot of data to consider.</p>
+        <p>That's where “Dumping Data” comes in. We are a leading provider of export import data, offering a wide range
+            of services to
+            help businesses make the most of their international trade opportunities. We collect and aggregate data on
+            export and import trends, prices, and
+            regulations. The world is becoming increasingly
+            interconnected, which is creating new opportunities for businesses to export and import goods and services.
+        </p>
+        <p> We have a strong presence in both the domestic and international markets , and we are committed to providing
+            our customers with the best possible information and services.
+            Our data is comprehensive , covering everything from product prices to shipping costs.
+            We also offer a variety of data analysis and reporting tools, so you can easily see how your business is
+            performing in the global market.
+        </p>
+        <p2>Whether you're a small business just starting out or a large multinational corporation, Dumping Data can
+            help you succeed in international trade.
+            We are confident that we can provide our customers with the information and services they need to succeed.
+            We invite you to contact us today to learn more about what we can do for you.
+        </p2>
+        <div class="intro2">
+            <h2>Why Use Dumping Data for Export Import?</h2>
+            <p2>There are many reasons why you might want to use dumpingdata.com for export import. For example, you
+                might want to:</p2>
+            <ul>
+                <li><strong>></strong> Analyze the data to identify trends and patterns in the global markets.</li>
+                <li> > Identify new opportunities for your business: Identify new markets.</li>
+                <li> > Make better pricing decisions.</li>
+                <li> > Track inventory levels.</li>
+                <li> > Comply with regulations.</li>
+            </ul>
+            <div class="btn">
+                <label for="hc">Read Less</label>
+                <a href="readmore.html"><button>Next Page</button></a>
+            </div>
+        </div>
+        <label for="hc">Read More</label>
+    </div>
+    <!-- fore block-->
+
+    <div class="block4">
+        <div class="block">
+            <div class="conte">
+                <img src="img/icons8-toolbox-80.png" alt="Logo 1">
+                <div class="text5">
+                    <h2>Reliable Data Information</h2>
+                    <p>We provide data solely after the testing process. Our Company assures to offer reliable fact and
+                        figure for the business. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="conte">
+                <img src="img/icons8-value-96.png" alt="Logo 2">
+                <div class="text5">
+                    <h2>Value For Money</h2>
+                    <p>We provide Data Report at highly competitive price. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="conte">
+                <img src="img/icons8-data-protection-100.png" alt="Logo 3">
+                <div class="text5">
+                    <h2>Data Trusted By Govt.Agencies</h2>
+                    <p>Our Data is also used by various Goverment Agencies to identify potential investors, recover
+                        tarrif evasions & spot illegal activites. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="conte">
+                <img src="img/icons8-clock-160.png" alt="Logo 4">
+                <div class="text5">
+                    <h2>24/7 Support</h2>
+                    <p>We are alwayes there to serve you ! We are Coustomer centric company. Hence, We Provide 24/7
+                        customer service and resolve their quaries in no time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sample data start-->
+
+    <div class="wrapper">
+        <h1>SAMPLE DATA</h1>
+        <div class="content-box">
+            <div class="card1">
+                <h2>Import Data</h2>
+                <a href="import.html"><button>View Data</button></a>
+            </div>
+            <div class="card2">
+                <h2>Export Data</h2>
+                <a href="export.html"><button>View Data</button></a>
+            </div>
+        </div>
+    </div>
+    <!--country-->
+    <div class="co">
+        <div class="outer-div">
+            <div class="element-widget-container">
+                <div class="country-h">
+                    <h1>Authentic Imports-Export Trade Data of Global Countries With Importer-Exporter List at Your
+                        Fingertips</h1>
+                </div>
+
+                <div class="countries-box">
+                    <div class="box1">
+                        <div class="country">
+                            <i class="flag-icon flag-icon-in"></i>
+                            <span>India</span>
+                        </div>
+                        <br>
+
+                        <div class="country">
+                            <i class="flag-icon flag-icon-us"></i>
+                            <span>United States</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-jp"></i>
+                            <span>Japan</span>
+                        </div>
+                        <br>
+
+
+                        <div class="country">
+                            <i class="flag-icon flag-icon-bz"></i>
+                            <span>Brazil</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-rs"></i>
+                            <span>Russia</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-kw"></i>
+                            <span>Kuwait</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-si"></i>
+                            <span>Singapore</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-ml"></i>
+                            <span>Malaysia</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-ua"></i>
+                            <span>UAE</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-ge"></i>
+                            <span>Germany</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-it"></i>
+                            <span>Italy</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-cn"></i>
+                            <span>Chaina</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-mc"></i>
+                            <span>Morocco</span>
+                        </div>
+                    </div>
+
+
+                    <div class="box2">
+                        <div class="country">
+                            <i class="flag-icon flag-icon-ua"></i>
+                            <span>Uk</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-sa"></i>
+                            <span>Soudi Arabia</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-af"></i>
+                            <span>Afganistan</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-bd"></i>
+                            <span>BanglaDesh</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-ca"></i>
+                            <span>Canada</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-ir"></i>
+                            <span>Iran</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-th"></i>
+                            <span>Thailand</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-sk"></i>
+                            <span>South Korea</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-tr"></i>
+                            <span>Turkey</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-cr"></i>
+                            <span>Costa Rica</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-kz"></i>
+                            <span>Kazakhstan</span>
+                        </div>
+                        <br>
+
+                        <div class="country">
+                            <i class="flag-icon flag-icon-ph"></i>
+                            <span>Philippines</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-eg"></i>
+                            <span>Egypt</span>
+                        </div>
+                        <br>
+
+
+
+
+                    </div>
+
+
+
+
+                    <div class="box3">
+                        <div class="country">
+                            <i class="flag-icon flag-icon-co"></i>
+                            <span>Colombia</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-es"></i>
+                            <span>Spain</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-no"></i>
+                            <span>Norway</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-cl"></i>
+                            <span>Chile</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-tt"></i>
+                            <span>Tobago</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-gr"></i>
+                            <span>Greece</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-cz"></i>
+                            <span>Czechia</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-be"></i>
+                            <span>Belgium</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-hk"></i>
+                            <span>Hong Kong</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-nl"></i>
+                            <span>Netherlands</span>
+                        </div>
+                        <br>
+
+
+
+                        <div class="country">
+                            <i class="flag-icon flag-icon-pl"></i>
+                            <span>Poland</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-ro"></i>
+                            <span>Romania</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-cy"></i>
+                            <span>Cyprus</span>
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+                    <div class="box4">
+                        <div class="country">
+                            <i class="flag-icon flag-icon-vn"></i>
+                            <span>Vietnam</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-om"></i>
+                            <span>Oman</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-au"></i>
+                            <span>Australia</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-qa"></i>
+                            <span>Qatar</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-pt"></i>
+                            <span>Portugal</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-mx"></i>
+                            <span>Mexico</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-br"></i>
+                            <span>Brazil</span>
+                        </div>
+                        <br>
+                        <!-- France -->
+                        <div class="country">
+                            <i class="flag-icon flag-icon-fr"></i>
+                            <span>France</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-za"></i>
+                            <span>South Africa</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-jo"></i>
+                            <span>Jordan</span>
+                        </div>
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-ao"></i>
+                            <span>Angola</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-lk"></i>
+                            <span>Sri Lanka</span>
+                        </div>
+
+                        <br>
+                        <div class="country">
+                            <i class="flag-icon flag-icon-mm"></i>
+                            <span>Myanmar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact from start-->
+    <div class="contactus">
+        <header>
+            <h1 class="h">Please share your requirement with us to serve your better.</h1>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="right">
+                    <img src="img/p1.jpeg" class="image">
+                </div>
+                <div class="right-side">
+                    <form form onsubmit="sendEmail(); reset(); return false">
+                        <!-- Form content here -->
+                        <div class="form-group">
+                            <h2>Enquiry Form</h2>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Phone:</label>
+                            <input type="tel" id="tel" name="tel" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="data-type">Data Type:</label>
+                            <select id="data-type" name="data-type" required>
+                                <option value="">Select Data Type</option>
+                                <option value="Export">Export Data</option>
+                                <option value="Import">Import Data</option>
+                                <option value="Export and Import">Both</option>
+                                <option value="Other data">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://smtpjs.com/v3/smtp.js'></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                SecureToken: "5d224578-40b1-4af7-a351-a4415bced795",
+                To: 'dumping.data123@gmail.com',
+                From: "dumping.data123@gmail.com",
+                Subject: "This is the subject",
+                Body: "Name: " + document.getElementById("name").value
+                    + "<br> Email: " + document.getElementById("email").value
+                    + "<br> Phone no: " + document.getElementById("tel").value
+                    + "<br> Data Type: " + document.getElementById("data-type").value
+                    + "<br> Massage: " + document.getElementById("message").value
+            }).then(
+                message => alert("Massage send succesfully")
+            );
+        }
+
+    </script>
+
+    <!--Address part start-->
+    <div class="cont">
+        <div class="contact-info">
+            <div class="contact">
+                <img src="img/icons8-email-100.png" alt="Email Icon">
+                <div class="contact-details">
+                    <h2>E-MAILS:</h2>
+                    <p><a href="mailto:info@example.com">info@example.com</a></p>
+                </div>
+            </div>
+            <div class="contact">
+                <img src="img/icons8-phone-100.png" alt="Phone Icon">
+                <div class="contact-details">
+                    <h2>PHONE:</h2>
+                    <p><a>+1 1234567890 / +1 1234567890</a></p>
+                </div>
+            </div>
+            <div class="contact">
+                <img src="img/icons8-message-32.png" alt="Support Icon">
+                <div class="contact-details">
+                    <h2>SUPPORT:</h2>
+                    <p>Mon-Sat, 8AM-8PM</p>
+                </div>
+            </div>
+            <div class="contact">
+                <img src="img/icons8-address-96.png" alt="Address Icon">
+                <div class="contact-details">
+                    <h2>ADDRESS:</h2>
+                    <p>123 Main Street, City, State, ZIP Code</p>
+                </div>
+            </div>
+        </div>
+        <div class="company-name">
+            <h1>DUMPING DATA</h1>
+            <h4>Unlocking Global Opportunities</h4>
+        </div>
+        <div class="company-text">
+            <p>An established organization,Dumping Data is expanding quickly with</p>
+            <p>its sights set on becoming a global player in the Data industry.</p>
+        </div>
+        <div class="follow-us">
+            <div class="social-media">
+                <a href="#" class="facebook"></a>
+                <a href="#" class="instagram"></a>
+                <a href="#" class="youtube"></a>
+            </div>
+        </div>
+        <div class="copy">
+            <p>Copyright © Dumping Data ®</p>
+        </div>
+    </div>
+</body>
+
+</html>

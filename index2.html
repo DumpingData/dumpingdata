@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reveal Website Elements On Scroll - HTML, CSS & Javascript</title>
+  <link rel="stylesheet" href="styless.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <header class="head">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <div class="heading">
+      <img src="img/logo.jpg" alt="Image description">
+    </div>
+    <nav>
+      <ul class="list">
+        <li><a href="index.html">Home</a></li>
+        <li class="ab"><a href="about.html">About</a></li>
+        <li><a href="slider.html">Blogs</a></li>
+        <li><a href="service.html" onclick="toggleSection('services')">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <div class="box">
+          <a href="downlode/HSN Code List in PDF.pdf" target="_blank" style="font-weight: bold;">HSN Code List</a>
+        </div>
+      </ul>
+    </nav>
+
+  </header>
+  <Script>
+    // Add this JavaScript to toggle the mobile menu
+    document.addEventListener("DOMContentLoaded", function () {
+      const checkbox = document.getElementById("check");
+      const menuList = document.querySelector(".list");
+
+      checkbox.addEventListener("change", function () {
+        if (checkbox.checked) {
+          menuList.classList.add("show");
+        } else {
+          menuList.classList.remove("show");
+        }
+      });
+    });
+  </Script>
+  <div class="null"></div>
+  <section class="sec-02">
+    <div class="container">
+      <h3 class="section-title">Our Mission & values</h3>
+      <div class="content">
+        <div class="image">
+          <img src="img/r1.jpg" alt="">
+        </div>
+        <div class="info">
+          <h4 class="info-title">Our Mission :</h4>
+          <p>Our mission is to make data more accessible and affordable for businesses of all sizes. We believe that
+            data can help businesses to make better decisions, improve their operations, and increase their profits.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec-03">
+    <div class="container">
+      <h3 class="section-title">Our Values</h3>
+      <div class="content">
+        <div class="info">
+          <h4 class="info-title">We are committed to the following values:</h4>
+          <ul>
+            <li><strong class="highlighted">Accuracy:</strong> We ensure that our data is accurate and up-to-date.</li>
+            <li><strong class="highlighted">Transparency:</strong> We are transparent about our pricing and our data
+              collection practices.</li>
+            <li><strong class="highlighted">Privacy:</strong> We protect your privacy by never sharing your data with
+              third parties.</li>
+            <li><strong class="highlighted">Security:</strong> We use the latest security measures to protect your data.
+            </li>
+            <li><strong class="highlighted">Customer service:</strong> We offer excellent customer service to help you
+              get the most out of our platform.</li>
+          </ul>
+          <p>We are committed to helping businesses succeed. If you are looking for data to help you make better
+            decisions, we encourage you to check out our platform.</p>
+        </div>
+        <div class="image">
+          <img src="img/r2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    ScrollReveal({
+      distance: '60px',
+      duration: 2500,
+      delay: 400
+    });
+    ScrollReveal().reveal('.section-title', { delay: 500, origin: 'left' });
+    ScrollReveal().reveal('.info', { delay: 600, origin: 'bottom' });
+    ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin: 'top' });
+  </script>
+  <div class="cont">
+    <div class="contact-info">
+      <div class="contact">
+        <img src="img/icons8-email-100.png" alt="Email Icon">
+        <div class="contact-details">
+          <h2>E-MAILS:</h2>
+          <p><a href="mailto:info@example.com">info@example.com</a></p>
+        </div>
+      </div>
+      <div class="contact">
+        <img src="img/icons8-phone-100.png" alt="Phone Icon">
+        <div class="contact-details">
+          <h2>PHONE:</h2>
+          <p><a>+1 1234567890 / +1 1234567890</a></p>
+        </div>
+      </div>
+      <div class="contact">
+        <img src="img/icons8-message-32.png" alt="Support Icon">
+        <div class="contact-details">
+          <h2>SUPPORT:</h2>
+          <p>Mon-Sat, 8AM-8PM</p>
+        </div>
+      </div>
+      <div class="contact">
+        <img src="img/icons8-address-96.png" alt="Address Icon">
+        <div class="contact-details">
+          <h2>ADDRESS:</h2>
+          <p>123 Main Street, City, State, ZIP Code</p>
+        </div>
+      </div>
+    </div>
+    <div class="company-name">
+      <h1>DUMPING DATA</h1>
+      <h4>Unlocking Global Opportunities</h4>
+    </div>
+    <div class="company-text">
+      <p>An established organization,Dumping Data is expanding quickly with</p>
+      <p>its sights set on becoming a global player in the Data industry.</p>
+    </div>
+    <div class="follow-us">
+      <div class="social-media">
+        <a href="#" class="facebook"></a>
+        <a href="#" class="instagram"></a>
+        <a href="#" class="youtube"></a>
+      </div>
+    </div>
+    <div class="copy">
+      <p>Copyright © Dumping Data ®</p>
+    </div>
+  </div>
+</body>
+
+</html>
