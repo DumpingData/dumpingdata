@@ -1,0 +1,99 @@
+ .search {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 10px;
+     border-radius: 10px;
+ }
+ .search input {
+     width: 30%;
+     padding: 15px 25px;
+     font-size: 18px;
+ }
+ .search-top{
+    width: 30%;
+ }
+
+ .search-result{
+    width: 100%;
+ }
+ .search-result div{
+    width: 100%;
+    padding: 10px 25px;
+    background-color: white;
+
+ }
+
+ html{
+    font-size: 62.5%;
+
+ }
+
+ table {
+    margin: 5rem auto;
+    border-radius: 1rem;
+    border: 1rem hidden #443c68;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+    max-width: 100rem;
+ }
+
+li, p, td {
+    font-size: 1.2rem;
+    line-height: 3.6;
+
+}
+
+thead{
+    font-size: 1.5rem;
+    background-color: #3910ee;
+    color: #fff;
+}
+
+th{
+    width: 5rem;
+}
+
+th, td {
+    border: 1px solid #6a677c;
+    min-width: 10rem;
+    padding: 0.5rem;
+    line-height: 1.3;
+}
+
+td {
+    font-size: 1.4rem;
+    width: 3rem;
+}
+
+
+input {
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.box_data{
+    width: 85vw;
+    height: 50vh;
+}
+
+col{
+    background-color: #302860;
+}
+
+.small{
+    background-color: #dfdde9;
+    margin: 3px;
+}
+
+.radioBtn input{
+    width: fit-content;
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+input{
+    color: rgb(16, 18, 18);
+}
